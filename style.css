@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: black; */
+}
+.container{
+    /* height: 485px;
+    width: 607px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px 24px;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+
+/* Logo */
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    height: 39px;
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 4px;
+}
+
+label input{
+    height: 40px;
+    width: 278px;
+    border:2px solid lightgray;
+    border-radius: 16px;
+    font-size: 18px;
+    padding-left: 15px;
+    
+}
+
+
+ /* middle  */
+
+
+.middle{
+    text-align: center;
+}
+
+.forgot{
+    position: relative;
+    right: 75px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#login-button{
+    height: 40px;
+    width: 300px;
+    border:0;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(228, 0, 46);
+    color: white;
+}
