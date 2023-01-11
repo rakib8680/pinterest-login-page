@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e47c72ccbf.js" crossorigin="anonymous"></script>
     <title>Pinterest Login Page</title>
 </head>
 
@@ -19,14 +20,14 @@
         </div>
         <div class="inputs">
             <label for="">Email
-                <input type="email" name="" id="" placeholder="Email">
+                <input type="email" name="" id="email" placeholder="Email">
             </label>
 
-            <label for="">password
-                <input type="password" name="" placeholder="Password" id="">
+            <label for="">Password
+                <input type="password" name="" placeholder="Password" id="password">
             </label>
             <div class="middle">
-                <h4 class="forgot">Forgot your password?</h4>
+                <h4 class="forgot"> <a href="">Forgot your password?</a> </h4>
 
                 <input type="button" value="Log in" id="login-button">
 
@@ -35,19 +36,26 @@
 
         </div>
 
+
         <div class="social-media">
-            <input type="button" value="Continue with Facebook">
+            <button class="facebook"> <i class="fa-brands fa-facebook"></i>Continue with Facebook</button>
+
+            <button class="google">Continue with Google <i class="fa-brands fa-google"></i></button>
         </div>
+
+
         <div class="description">
+            <small>
             <p>By continuing, you agree to Pinterest's <br>
-                Terms of Service; Opens a new tab and acknowledge you've read our <br>
-                Privacy Policy; Opens a new tab. Notice at collection.
+               <strong>Terms of Service </strong> and acknowledge you've read our <br>
+                <strong>Privacy Policy</strong>. <strong>Notice at collection</strong>.
             </p>
             <hr>
-            <p>Not on Pinterest yet? Sign up <br>
+            <p><strong>Not on Pinterest yet? Sign up</strong> <br>
                 Are you a business?
                 Get started here!
             </p>
+        </small>
         </div>
 
     </div>
